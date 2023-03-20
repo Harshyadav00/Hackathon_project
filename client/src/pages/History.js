@@ -1,5 +1,6 @@
 import React from "react";
-import logo from './logo.svg'
+import { Link } from "react-router-dom";
+import logo from "./logo.png";
 
 const History = () => {
   return (
@@ -14,24 +15,17 @@ const History = () => {
           <p>GENDER:</p>
         </div>
       </div>
-      <table className="pt-5" style={{width:"100%"}}>
+      <table className="pt-5" style={{ width: "100%" }}>
         <tr className="p-5">
           <th className="attri-dec">DATE</th>
           <th className="attri-dec">SYMPTOMS/DISEASE</th>
           <th className="attri-dec">MEDICINES</th>
           <th className="attri-dec">TESTS</th>
         </tr>
-        <tr className="p-5">
-          
-        </tr>
-        <tr className="p-5">
-          
-        </tr>
-        <tr className="p-5">
-          
-        </tr>
       </table>
-      <div></div>
+      <div>
+        <Link>VIEW MORE</Link>
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Home = () => {
             <div className='col-6' >
                 <div className='col-12'></div>
             </div>
-            <div className="col-6 d-flex justify-content-center align-items-center flex-column">
+            <div style={{height:"100vh"}} className="d-flex justify-content-center align-items-end flex-column">
                 <Link to='/hospitalLogin' >
                     <div className='homeButton registrationLogin'>
                         REGISTERATION DESK LOGIN
