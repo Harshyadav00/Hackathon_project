@@ -2,6 +2,7 @@ import React from 'react'
 
 const patientLogin = () => {
   return (
+    
     <div className='mainBgColor h100'>
         <div className='' >
             <form className=' d-flex justify-content-center align-items-center h100 flex-column'>
