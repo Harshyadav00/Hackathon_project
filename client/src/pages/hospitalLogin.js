@@ -20,7 +20,7 @@ const HospitalLogin = () => {
       <div>
         
         <form style={{height:'60vh', overflow:'auto'}} className="d-flex justify-content-center align-items-center flex-column">
-        <h3>Registerar Login</h3>
+        <h3 style={{fontWeight:'700'}}>Registerar Login</h3>
           <label style={{ fontWeight: "500" }} className="label">
             Username <input />
           </label>

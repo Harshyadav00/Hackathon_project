@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.png";
+import bg from './bro.svg';
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -18,6 +19,10 @@ const Home = () => {
           </a>
         </div>
       </nav>
+      <div className="d-flex">
+      <div>
+        <img style={{width:'78%'}} src={bg} alt="bg"/>
+      </div>
       <div
         style={{ height: "60vh" }}
         className="d-flex justify-content-center align-items-end flex-column"
@@ -34,6 +39,7 @@ const Home = () => {
           <div className="homeButton patientLogin">PATIENT LOGIN</div>
         </Link>
       </div>
+    </div>
     </div>
   );
 };

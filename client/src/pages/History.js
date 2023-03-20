@@ -27,9 +27,12 @@ const History = () => {
             ></img>
           </div>
           <div className="ps-5 Details">
-            <p>NAME:</p>
-            <p>AGE:</p>
-            <p>GENDER:</p>
+            <div className="d-flex"><p>NAME:</p><p>John Meher</p></div>
+            <div className="d-flex"><p>AGE:</p><p>35</p></div>
+            <div className="d-flex"><p>GENDER:</p><p>M</p></div>
+            
+            
+            
           </div>
         </div>
         <table className="pt-5" style={{ width: "100%" }}>
@@ -40,8 +43,8 @@ const History = () => {
             <th className="attri-dec">TESTS</th>
           </tr>
         </table>
-        <div>
-          <Link>VIEW MORE</Link>
+        <div >
+          <Link className="attri-dec">VIEW MORE</Link>
         </div>
       </div>
     </div>
