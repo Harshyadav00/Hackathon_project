@@ -19,7 +19,7 @@ const Home = () => {
         </div>
       </nav>
       <div
-        style={{ height: "100vh" }}
+        style={{ height: "60vh" }}
         className="d-flex justify-content-center align-items-end flex-column"
       >
         <Link to="/hospitalLogin">
