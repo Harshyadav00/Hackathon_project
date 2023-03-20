@@ -45,8 +45,17 @@ button{
   border: none;
 }
 
+.font{
+  font-family: 'Barlow', sans-serif;
+}
+
 .mainBgColor{
   background-color: #E6FFD6 ;
+}
+
+.patientPhoto{
+  width: 150px;
+  height: 200px;
 }
 
 .h100{
@@ -84,4 +93,19 @@ button{
 .label{
   margin: 10px;
   font-weight: 500;
+}
+
+/*History*/
+.history{
+  padding:0 120px;
+}
+.Details{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.attri-dec{
+  background-color:rgba(128, 191, 78, 1);
+  color:black;
+  padding: 15px;
 }
