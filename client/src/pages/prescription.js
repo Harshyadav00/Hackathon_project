@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react'
+
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 
-const History = () => {
+const Prescription = () => {
   return (
     <div>
       <nav class="navbar sticky-top mainBgColor">
@@ -29,19 +30,24 @@ const History = () => {
           <div className="ps-5 Details">
             <p>NAME:</p>
             <p>AGE:</p>
+            <p>DATE:</p>
+          </div>
+          <div  className="ps-5 Details">
+            <p>PATIENT NUMBER:</p>
             <p>GENDER:</p>
           </div>
         </div>
         <table className="pt-5" style={{ width: "100%" }}>
           <tr className="p-5">
-            <th className="attri-dec">DATE</th>
             <th className="attri-dec">SYMPTOMS/DISEASE</th>
             <th className="attri-dec">MEDICINES</th>
             <th className="attri-dec">TESTS</th>
           </tr>
         </table>
         <div>
-          <Link>VIEW MORE</Link>
+          <Link>PREVIOUS RECORDS</Link>
+          <Link>SAVE</Link>
+          <Link>PRINT</Link>
         </div>
       </div>
     </div>
