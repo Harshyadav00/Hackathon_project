@@ -56,12 +56,30 @@ const Prescription = () => {
           </div>
         </div>
         <table className="pt-5" style={{ width: "100%" }}>
-          <tr className="p-5">
-            <th className="attri-dec">SYMPTOMS/DISEASE</th>
-            <th className="attri-dec">MEDICINES</th>
-            <th className="attri-dec">TESTS</th>
-          </tr>
-          <tr></tr>
+                <tr className="p-5">
+                    <th className="attri-dec">SYMPTOMS/DISEASE</th>
+                    <th className="attri-dec">MEDICINES</th>
+                    <th className="attri-dec">TESTS</th>
+                </tr>
+                <tr className="p-5">
+                    <td className="attri-dec">Fever</td>
+                    <td className="attri-dec">
+                        <ul>
+                            <li>Paracetamol</li>
+                            <li>acetaminophen</li>
+                        </ul>
+                    </td>
+                    <td className="attri-dec">None</td>
+                </tr>
+                <tr className="p-5">
+                    <td className="attri-dec">Dengue</td>
+                    <td className="attri-dec">
+                        <ul>
+                            <li>acetaminophen</li>
+                        </ul>
+                    </td>
+                    <td className="attri-dec">None</td>
+                </tr>
         </table>
         <div>
           <Link className="attri-dec">PREVIOUS RECORDS</Link>

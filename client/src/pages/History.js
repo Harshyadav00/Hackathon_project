@@ -42,6 +42,27 @@ const History = () => {
             <th className="attri-dec">MEDICINES</th>
             <th className="attri-dec">TESTS</th>
           </tr>
+          <tr className="p-5">
+            <td className="attri-dec">19-03-23</td>
+            <td className="attri-dec">Fever</td>
+            <td className="attri-dec">
+              <ul>
+                <li>Paracetamol</li>
+                <li>Acetaminophen</li>
+              </ul>
+            </td>
+            <td className="attri-dec">None</td>
+          </tr>
+          <tr className="p-5">
+            <td className="attri-dec">21-03-23</td>
+            <td className="attri-dec">Dengue</td>
+            <td className="attri-dec">
+              <ul>
+                <li>Acetaminophen</li>
+              </ul>
+            </td>
+            <td className="attri-dec">None</td>
+          </tr>
         </table>
         <div >
           <Link className="attri-dec">VIEW MORE</Link>

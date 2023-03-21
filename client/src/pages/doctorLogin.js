@@ -1,12 +1,12 @@
 import React from "react";
 import logo from './logo.png';
 
-const HospitalLogin = () => {
+const DoctorLogin = () => {
   return (
     <div className="mainBgColor h100">
     <nav class="navbar sticky-top mainBgColor">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="./home">
             <img
               src={logo}
               alt="Logo"
@@ -39,4 +39,4 @@ const HospitalLogin = () => {
   );  
 };
 
-export default HospitalLogin;
+export default DoctorLogin;
