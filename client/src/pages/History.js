@@ -27,9 +27,12 @@ const History = () => {
             ></img>
           </div>
           <div className="ps-5 Details">
-            <p>NAME:</p>
-            <p>AGE:</p>
-            <p>GENDER:</p>
+            <div className="d-flex"><p>NAME:</p><p>John Meher</p></div>
+            <div className="d-flex"><p>AGE:</p><p>35</p></div>
+            <div className="d-flex"><p>GENDER:</p><p>M</p></div>
+            
+            
+            
           </div>
         </div>
         <table className="pt-5" style={{ width: "100%" }}>
@@ -39,9 +42,30 @@ const History = () => {
             <th className="attri-dec">MEDICINES</th>
             <th className="attri-dec">TESTS</th>
           </tr>
+          <tr className="p-5">
+            <td className="attri-dec">19-03-23</td>
+            <td className="attri-dec">Fever</td>
+            <td className="attri-dec">
+              <ul>
+                <li>Paracetamol</li>
+                <li>Acetaminophen</li>
+              </ul>
+            </td>
+            <td className="attri-dec">None</td>
+          </tr>
+          <tr className="p-5">
+            <td className="attri-dec">21-03-23</td>
+            <td className="attri-dec">Dengue</td>
+            <td className="attri-dec">
+              <ul>
+                <li>Acetaminophen</li>
+              </ul>
+            </td>
+            <td className="attri-dec">None</td>
+          </tr>
         </table>
-        <div>
-          <Link>VIEW MORE</Link>
+        <div >
+          <Link className="attri-dec">VIEW MORE</Link>
         </div>
       </div>
     </div>
