@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 
 const Prescription = () => {
+  const current = new Date();
+  const date = `${current.getDate()}/${
+    current.getMonth() + 1
+  }/${current.getFullYear()}`;
   return (
     <div>
       <nav class="navbar sticky-top mainBgColor">
@@ -28,30 +31,64 @@ const Prescription = () => {
             ></img>
           </div>
           <div className="ps-5 Details">
-            <p>NAME:</p>
-            <p>AGE:</p>
-            <p>DATE:</p>
+            <div className="d-flex">
+              <p>NAME: </p>
+              <p>John Meher</p>
+            </div>
+            <div className="d-flex">
+              <p>AGE: </p>
+              <p>35yr.</p>
+            </div>
+            <div className="d-flex">
+              <p>DATE: </p>
+              <p>{date}</p>
+            </div>
           </div>
-          <div  className="ps-5 Details">
-            <p>PATIENT NUMBER:</p>
-            <p>GENDER:</p>
+          <div className="ps-5 Details">
+            <div className="d-flex">
+              <p>PATIENT NUMBER:</p>
+              <p>415889652</p>
+            </div>
+            <div className="d-flex">
+              <p>GENDER:</p>
+              <p>M</p>
+            </div>
           </div>
         </div>
         <table className="pt-5" style={{ width: "100%" }}>
-          <tr className="p-5">
-            <th className="attri-dec">SYMPTOMS/DISEASE</th>
-            <th className="attri-dec">MEDICINES</th>
-            <th className="attri-dec">TESTS</th>
-          </tr>
+                <tr className="p-5">
+                    <th className="attri-dec">SYMPTOMS/DISEASE</th>
+                    <th className="attri-dec">MEDICINES</th>
+                    <th className="attri-dec">TESTS</th>
+                </tr>
+                <tr className="p-5">
+                    <td className="attri-dec">Fever</td>
+                    <td className="attri-dec">
+                        <ul>
+                            <li>Paracetamol</li>
+                            <li>acetaminophen</li>
+                        </ul>
+                    </td>
+                    <td className="attri-dec">None</td>
+                </tr>
+                <tr className="p-5">
+                    <td className="attri-dec">Dengue</td>
+                    <td className="attri-dec">
+                        <ul>
+                            <li>acetaminophen</li>
+                        </ul>
+                    </td>
+                    <td className="attri-dec">None</td>
+                </tr>
         </table>
         <div>
-          <Link>PREVIOUS RECORDS</Link>
-          <Link>SAVE</Link>
-          <Link>PRINT</Link>
+          <Link className="attri-dec">PREVIOUS RECORDS</Link>
+          <Link className="attri-dec">SAVE</Link>
+          <Link className="attri-dec">PRINT</Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default History;
+export default Prescription;

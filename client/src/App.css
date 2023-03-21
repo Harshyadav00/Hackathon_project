@@ -108,4 +108,5 @@ button{
   background-color:rgba(128, 191, 78, 1);
   color:black;
   padding: 15px;
+  border:2px solid black ;
 }
