@@ -110,3 +110,10 @@ button{
   padding: 15px;
   border:2px solid black ;
 }
+.list
+{
+  background-color: white;
+  color:white;
+  padding:15px;
+  border:2px solid black;
+}

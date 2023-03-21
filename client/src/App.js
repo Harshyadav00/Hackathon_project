@@ -7,6 +7,7 @@ import PatientOtp from './pages/patientOtp';
 import History from './pages/History';
 import Prescription from './pages/prescription';
 import RegisterLogin from './pages/registerLogin';
+import patientList from './pages/patientList';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 		<Route path='/patientotp' element={<PatientOtp/>}/>
 		<Route path='/history' element={<History/>}/>
 		<Route path='/prescription' element={<Prescription/>}/>
+		<Route path='/patientList' element={<patientList/>}/>
 		{/* <Route path='/events' component={Events} /> */}
 	</Routes>
 	</Router>
